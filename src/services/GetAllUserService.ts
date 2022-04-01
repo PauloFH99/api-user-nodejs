@@ -8,7 +8,6 @@ class GetAllUserService{
             .select()
             .getMany()
 
-        console.log(usuarios)
         return usuarios
     }
 }

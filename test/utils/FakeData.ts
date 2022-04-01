@@ -14,7 +14,7 @@ class FakeData{
         await this.createUserService.execute({
             id: uuid(),
             name: 'Outro usuario',
-            email: '',
+            email: 'outrousuario@gmail.com',
         })
     }
 

@@ -28,7 +28,7 @@ describe('GetAllUserService', () => {
             },
             {
                 name: 'Outro usuario',
-                email: ''
+                email: 'outrousuario@gmail.com'
             }
         ]
 
