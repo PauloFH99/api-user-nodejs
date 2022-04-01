@@ -7,6 +7,7 @@ describe('GetAllUserService', () => {
     beforeAll(async () => {
         const connection = await createConnection()
         await connection.runMigrations()
+        await connection.query('DELETE FROM usuarios')
     })
 
     afterAll(async () => {
